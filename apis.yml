@@ -1,23 +1,66 @@
 aid: impira
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impira.png
 name: Impira
-description: Impira is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Impira was a document-AI / intelligent-document-processing company that let business
+  users turn unstructured content — documents, invoices, images, PDFs and webpages —
+  into structured, queryable data by building and training extraction models without
+  code. Backed by Lightspeed Venture Partners, Impira was acquired by Figma in early
+  2023 and its standalone product domains (impira.com, impira.io) no longer serve.
+  Its GitHub organization (github.com/impira) survives, along with two first-party
+  open-source Python libraries still published on PyPI: the official Impira Python SDK
+  and DocQuery, an MIT-licensed document question-answering library. This profile is
+  maintained in the API Evangelist network as an acquired-company record; there is no
+  live API, developer portal, or hosted documentation surface remaining.
 url: https://raw.githubusercontent.com/api-evangelist/impira/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
+x-acquired-by: figma
+x-status: acquired
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Document AI
+- Intelligent Document Processing
+- Machine Learning
+- Data Extraction
+- Unstructured Data
+- Acquired
+- Open Source
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/impira
+- type: SourceCode
+  url: https://github.com/impira/impira-python
+- type: Packages
+  url: https://raw.githubusercontent.com/api-evangelist/impira/refs/heads/main/packages/impira-packages.yml
+- type: SDKs
+  url: https://raw.githubusercontent.com/api-evangelist/impira/refs/heads/main/packages/impira-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/impira/ ; https://pypi.org/project/docquery/ ; https://github.com/impira
+note: >-
+  Impira was acquired by Figma (early 2023) and its product domains (impira.com,
+  impira.io) no longer serve. The GitHub organization github.com/impira survives
+  and its two first-party open-source Python libraries remain published on PyPI.
+packages:
+  - language: python
+    registry: pypi
+    name: impira
+    url: https://pypi.org/project/impira/
+    source: https://github.com/impira/impira-python
+    install: pip install impira
+    version: 0.1.14
+    description: Official Impira Python SDK for programmatic access to Impira's document-AI platform.
+    official: true
+  - language: python
+    registry: pypi
+    name: docquery
+    url: https://pypi.org/project/docquery/
+    source: https://github.com/impira/docquery
+    install: pip install docquery
+    version: 0.0.7
+    description: >-
+      DocQuery — an open-source (MIT) library to extract information from documents
+      by asking natural-language questions; Impira's flagship open-source document-AI project.
+    official: true
