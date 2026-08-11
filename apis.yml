@@ -46,6 +46,11 @@ tags:
 - Open Source
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/impira/impira-python/issues
+- type: License
+  name: MIT
+  url: https://github.com/impira/impira-python/blob/main/LICENSE
 - type: GitHubOrganization
   url: https://github.com/impira
 - type: SourceCode
