@@ -51,11 +51,11 @@ tags:
 - Company
 - Document AI
 - Intelligent Document Processing
-- Machine-Learning
+- Machine Learning
 - Data Extraction
 - Unstructured Data
 - Acquired
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Document AI
@@ -65,6 +65,8 @@ tags_raw:
 - Unstructured Data
 - Acquired
 - Open Source
+- Machine-Learning
+- Open-Source
 apis: []
 common:
 - type: IssueTracker
